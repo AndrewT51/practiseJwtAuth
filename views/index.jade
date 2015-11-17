@@ -1,0 +1,18 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='stylesheets/style.css')
+    link(rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css")
+    link(rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css")
+    link(rel="stylesheet" href="bower_components/sweetalert/dist/sweetalert.css")
+  body(ng-app='app')
+    div(ui-view)
+    script(src="bower_components/firebase/firebase.js")
+    script(src="bower_components/jquery/dist/jquery.js")
+    script(src="bower_components/angular/angular.js")
+    script(src="bower_components/angular-ui-router/release/angular-ui-router.js")
+    script(src="bower_components/bootstrap/dist/js/bootstrap.js")
+    script(src="bower_components/sweetalert/dist/sweetalert.min.js")
+    script(src="javascripts/main.js")
+    
